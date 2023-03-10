@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* *********************** home page ***************************** */
+.home{
+
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    height:95vh;
+
+    color:white;
+    overflow: hidden;
+}
+.home .bakeryIMG{
+    margin-top:0px; 
+}
+.home .bakeryIMG img{
+    width: 10%;
+    float: left;
+    margin: 20px;
+   
+}
+.homeTEXT{
+
+    text-align: center;
+    padding: 200px;
+    font-size: 40px;
+}
+.btn1{
+    background-color: rgb(240, 173, 91);
+    border: 0px;
+    width: 10%;
+    height: 40px;
+}
+.btn2{
+background-color:rgba(255,255,255);
+opacity: 0.3;
+border: 1px;
+width: 10%;
+height: 40px;
+}
+
+/* ******************** section 1 *********************/
+.about_section {
+    overflow: hidden;
+}
+
+.alexandru_img {
+
+    width: 50%;
+    float: left;
+    margin: auto;
+
+}
+
+.alexandru_img img {
+    width: 90%;
+    padding: 40px;
+
+}
+
+.alexandru_text {
+
+    width: 40%;
+    float: right;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+
+h2 {
+    font-family: 'Allura', cursive;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+    text: left;
+    font-size: 40px;
+    font-family: 'Allura', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ***************** our location section 2 ******************/
+.our-location-section {
+
+    margin-top: 20px;
+}
+
+.location_text {
+
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    margin: 50px 40px;
+    padding: 50px;
+
+}
+
+.location_img {
+
+    width: 40%;
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+
+}
+
+.location_img img {
+    width: 100%;
+}
+
+
+/* ************* section 3 ***************************************** */
+.baking {
+
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.part1 {
+
+    margin: auto;
+}
+
+.items {
+
+
+    overflow: hidden;
+    margin: 30px;
+}
+
+.item {
+
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    padding: 10px
+}
+
+.baking img {
+    width: 100%;
+}
+
+
+
